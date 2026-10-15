@@ -1,3 +1,4 @@
+é
 
 # D-Wave Quantum Finance Research Engine
 
