@@ -1,0 +1,89 @@
+{
+    "project": "D-Wave Quantum Finance V8",
+    "architecture": "Rule-based Multi-Agent",
+    "generated_at": "2026-10-15T13:05:56.732832+00:00",
+    "source": "results_v7.json",
+    "agents": {
+        "Market Agent": {
+            "agent": "Market Agent",
+            "analyzed_windows": 18,
+            "most_selected_assets": [
+                {
+                    "asset": "GOOGL",
+                    "windows": 11
+                },
+                {
+                    "asset": "MU",
+                    "windows": 9
+                },
+                {
+                    "asset": "AAPL",
+                    "windows": 5
+                },
+                {
+                    "asset": "AMAT",
+                    "windows": 5
+                },
+                {
+                    "asset": "BTC-USD",
+                    "windows": 5
+                },
+                {
+                    "asset": "MSFT",
+                    "windows": 5
+                },
+                {
+                    "asset": "AMD",
+                    "windows": 4
+                },
+                {
+                    "asset": "AVGO",
+                    "windows": 4
+                },
+                {
+                    "asset": "IBM",
+                    "windows": 4
+                },
+                {
+                    "asset": "INTC",
+                    "windows": 4
+                }
+            ],
+            "average_crypto_positions": 0.3888888888888889,
+            "average_quantum_positions": 0.1111111111111111,
+            "latest_portfolio": [
+                "LINK-USD",
+                "MSFT",
+                "AAPL",
+                "MU"
+            ]
+        },
+        "Risk Agent": {
+            "agent": "Risk Agent",
+            "risk_level": "ELEVATED",
+            "annual_volatility": 0.3554306038331244,
+            "max_drawdown": -0.17634185828502869,
+            "sharpe_ratio": 1.9128031377891506,
+            "training_volatility_limit": 0.35,
+            "training_limit_violations": [],
+            "risk_note": "Training volatility limits do not guarantee future realized volatility."
+        },
+        "Portfolio Agent": {
+            "agent": "Portfolio Agent",
+            "total_windows": 18,
+            "optimal_windows": 7,
+            "optimal_rate": 0.3888888888888889,
+            "average_objective_gap": 0.07023089682286623,
+            "sa_final_equity": 2.521186319737333,
+            "exact_final_equity": 2.226366076305391,
+            "better_realized_backtest": "SA",
+            "note": "Exact minimizes the training objective; it does not guarantee better future returns."
+        }
+    },
+    "coordinator_findings": [
+        "Portfolio risk requires continued monitoring.",
+        "All reported training windows satisfy the volatility constraint.",
+        "SA achieved higher realized equity in this historical backtest.",
+        "Results are historical simulations, not live investment recommendations."
+    ]
+}

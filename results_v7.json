@@ -1,0 +1,673 @@
+{
+    "project": "D-Wave Portfolio V7",
+    "solver": "Local Simulated Annealing",
+    "assets": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOL-USD",
+        "ADA-USD",
+        "SUI20947-USD",
+        "AVAX-USD",
+        "LINK-USD",
+        "XRP-USD",
+        "DOGE-USD",
+        "LTC-USD",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AMD",
+        "TSLA",
+        "PLTR",
+        "IONQ",
+        "QBTS",
+        "RGTI",
+        "QUBT",
+        "IBM",
+        "GOOG",
+        "AAPL",
+        "AVGO",
+        "TSM",
+        "MU",
+        "INTC",
+        "AMAT"
+    ],
+    "max_train_volatility": 0.35,
+    "max_crypto": 1,
+    "max_quantum": 1,
+    "transaction_cost": 0.001,
+    "note": "Historical research only. Volatility constraints are estimated on training data.",
+    "windows": [
+        {
+            "window": 1,
+            "test_start": "2025-04-10",
+            "test_end": "2025-05-08",
+            "sa_assets": [
+                "BTC-USD",
+                "GOOGL",
+                "IBM",
+                "AVGO"
+            ],
+            "exact_assets": [
+                "MSFT",
+                "PLTR",
+                "IBM",
+                "GOOG"
+            ],
+            "sa_objective": -0.1869211430457491,
+            "exact_objective": -0.41486587587661194,
+            "objective_gap": 0.22794473283086283,
+            "sa_train_return": 0.24454562941477054,
+            "exact_train_return": 0.4742302394164642,
+            "sa_train_volatility": 0.33948339096050467,
+            "exact_train_volatility": 0.34457035142290543,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.547728700003063,
+            "exact_runtime": 0.1797370000022056,
+            "feasible_portfolios": 516,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 2,
+            "test_start": "2025-05-09",
+            "test_end": "2025-06-06",
+            "sa_assets": [
+                "BTC-USD",
+                "AMZN",
+                "IBM",
+                "AVGO"
+            ],
+            "exact_assets": [
+                "BTC-USD",
+                "MSFT",
+                "PLTR",
+                "IBM"
+            ],
+            "sa_objective": -0.2594087835460017,
+            "exact_objective": -0.5922851777938911,
+            "objective_gap": 0.3328763942478894,
+            "sa_train_return": 0.31932430235242854,
+            "exact_train_return": 0.652552824400634,
+            "sa_train_volatility": 0.34616619940839627,
+            "exact_train_volatility": 0.34718193100085976,
+            "sa_turnover": 0.25,
+            "exact_turnover": 0.25,
+            "sa_runtime": 4.547110099996644,
+            "exact_runtime": 0.1767961000005016,
+            "feasible_portfolios": 378,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 3,
+            "test_start": "2025-06-09",
+            "test_end": "2025-07-07",
+            "sa_assets": [
+                "BTC-USD",
+                "AMZN",
+                "IBM",
+                "AVGO"
+            ],
+            "exact_assets": [
+                "BTC-USD",
+                "MSFT",
+                "PLTR",
+                "IBM"
+            ],
+            "sa_objective": -0.28274937208206113,
+            "exact_objective": -0.47612303574300313,
+            "objective_gap": 0.193373663660942,
+            "sa_train_return": 0.34178777257026577,
+            "exact_train_return": 0.5351943513762109,
+            "sa_train_volatility": 0.3436230507058705,
+            "exact_train_volatility": 0.3437188258830398,
+            "sa_turnover": 0.0,
+            "exact_turnover": 0.0,
+            "sa_runtime": 4.530347099997016,
+            "exact_runtime": 0.1780359000003955,
+            "feasible_portfolios": 359,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 4,
+            "test_start": "2025-07-08",
+            "test_end": "2025-08-05",
+            "sa_assets": [
+                "BTC-USD",
+                "MSFT",
+                "PLTR",
+                "IBM"
+            ],
+            "exact_assets": [
+                "BTC-USD",
+                "MSFT",
+                "PLTR",
+                "IBM"
+            ],
+            "sa_objective": -0.7380165448190135,
+            "exact_objective": -0.7380165448190135,
+            "objective_gap": 0.0,
+            "sa_train_return": 0.7941624820082799,
+            "exact_train_return": 0.7941624820082799,
+            "sa_train_volatility": 0.3350997976402445,
+            "exact_train_volatility": 0.3350997976402445,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.0,
+            "sa_runtime": 4.509438000000955,
+            "exact_runtime": 0.17891840000083903,
+            "feasible_portfolios": 465,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 5,
+            "test_start": "2025-08-06",
+            "test_end": "2025-09-03",
+            "sa_assets": [
+                "BTC-USD",
+                "MSFT",
+                "AMD",
+                "TSM"
+            ],
+            "exact_assets": [
+                "BTC-USD",
+                "MSFT",
+                "AMD",
+                "TSM"
+            ],
+            "sa_objective": -0.523407766304836,
+            "exact_objective": -0.523407766304836,
+            "objective_gap": 0.0,
+            "sa_train_return": 0.5832768208914094,
+            "exact_train_return": 0.5832768208914094,
+            "sa_train_volatility": 0.34603194819719596,
+            "exact_train_volatility": 0.34603194819719596,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.487554300001648,
+            "exact_runtime": 0.1803615000026184,
+            "feasible_portfolios": 729,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 6,
+            "test_start": "2025-09-04",
+            "test_end": "2025-10-02",
+            "sa_assets": [
+                "ETH-USD",
+                "MSFT",
+                "GOOGL",
+                "META"
+            ],
+            "exact_assets": [
+                "ETH-USD",
+                "MSFT",
+                "GOOGL",
+                "GOOG"
+            ],
+            "sa_objective": -0.8872874088630103,
+            "exact_objective": -0.9486250596856003,
+            "objective_gap": 0.06133765082259002,
+            "sa_train_return": 0.9482988997250646,
+            "exact_train_return": 1.006427611617859,
+            "sa_train_volatility": 0.34931788062466634,
+            "exact_train_volatility": 0.3400075056002697,
+            "sa_turnover": 0.75,
+            "exact_turnover": 0.75,
+            "sa_runtime": 4.484921399995073,
+            "exact_runtime": 0.18784550000054878,
+            "feasible_portfolios": 1239,
+            "best_parameters": {
+                "reads": 500,
+                "sweeps": 1000,
+                "seed": 42
+            }
+        },
+        {
+            "window": 7,
+            "test_start": "2025-10-03",
+            "test_end": "2025-10-31",
+            "sa_assets": [
+                "GOOGL",
+                "IONQ",
+                "AVGO",
+                "MU"
+            ],
+            "exact_assets": [
+                "ETH-USD",
+                "AVGO",
+                "TSM",
+                "MU"
+            ],
+            "sa_objective": -1.5260404155042686,
+            "exact_objective": -1.5864961717125934,
+            "objective_gap": 0.060455756208324773,
+            "sa_train_return": 1.5856454503272208,
+            "exact_train_return": 1.6460955615658444,
+            "sa_train_volatility": 0.34526811269780516,
+            "exact_train_volatility": 0.34525176278550984,
+            "sa_turnover": 0.75,
+            "exact_turnover": 0.75,
+            "sa_runtime": 4.459519699998054,
+            "exact_runtime": 0.2437104000018735,
+            "feasible_portfolios": 7161,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 8,
+            "test_start": "2025-11-03",
+            "test_end": "2025-12-01",
+            "sa_assets": [
+                "NVDA",
+                "GOOGL",
+                "QBTS",
+                "MU"
+            ],
+            "exact_assets": [
+                "NVDA",
+                "GOOGL",
+                "QBTS",
+                "MU"
+            ],
+            "sa_objective": -1.8205543938948252,
+            "exact_objective": -1.8205543938948252,
+            "objective_gap": 0.0,
+            "sa_train_return": 1.8807181464600964,
+            "exact_train_return": 1.8807181464600964,
+            "sa_train_volatility": 0.3468825523582041,
+            "exact_train_volatility": 0.3468825523582041,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.75,
+            "sa_runtime": 4.4904535000059695,
+            "exact_runtime": 0.23524790000010398,
+            "feasible_portfolios": 6668,
+            "best_parameters": {
+                "reads": 500,
+                "sweeps": 1000,
+                "seed": 42
+            }
+        },
+        {
+            "window": 9,
+            "test_start": "2025-12-02",
+            "test_end": "2025-12-30",
+            "sa_assets": [
+                "GOOGL",
+                "AMD",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "AMD",
+                "MU",
+                "INTC"
+            ],
+            "sa_objective": -1.4368720642729749,
+            "exact_objective": -1.4368720642729749,
+            "objective_gap": 0.0,
+            "sa_train_return": 1.4971211447661985,
+            "exact_train_return": 1.4971211447661985,
+            "sa_train_volatility": 0.34712845026941747,
+            "exact_train_volatility": 0.34712845026941747,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.556997399999091,
+            "exact_runtime": 0.2357601000003342,
+            "feasible_portfolios": 5906,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 10,
+            "test_start": "2025-12-31",
+            "test_end": "2026-01-28",
+            "sa_assets": [
+                "GOOGL",
+                "GOOG",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "GOOG",
+                "MU",
+                "INTC"
+            ],
+            "sa_objective": -1.3405048048095047,
+            "exact_objective": -1.3405048048095047,
+            "objective_gap": 0.0,
+            "sa_train_return": 1.3901523187351295,
+            "exact_train_return": 1.3901523187351295,
+            "sa_train_volatility": 0.3151111357144481,
+            "exact_train_volatility": 0.3151111357144481,
+            "sa_turnover": 0.25,
+            "exact_turnover": 0.25,
+            "sa_runtime": 4.535113699996145,
+            "exact_runtime": 0.23396480000155861,
+            "feasible_portfolios": 5711,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 11,
+            "test_start": "2026-01-29",
+            "test_end": "2026-02-26",
+            "sa_assets": [
+                "GOOGL",
+                "TSM",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "GOOG",
+                "MU",
+                "INTC"
+            ],
+            "sa_objective": -1.6777334873353007,
+            "exact_objective": -1.752686995188109,
+            "objective_gap": 0.0749535078528083,
+            "sa_train_return": 1.7383305111769203,
+            "exact_train_return": 1.8102145381898227,
+            "sa_train_volatility": 0.34812935481403884,
+            "exact_train_volatility": 0.33919770931335524,
+            "sa_turnover": 0.25,
+            "exact_turnover": 0.0,
+            "sa_runtime": 4.521678100001736,
+            "exact_runtime": 0.24573740000050748,
+            "feasible_portfolios": 5679,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 12,
+            "test_start": "2026-02-27",
+            "test_end": "2026-03-27",
+            "sa_assets": [
+                "AAPL",
+                "TSM",
+                "MU",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "TSM",
+                "MU",
+                "AMAT"
+            ],
+            "sa_objective": -1.4311032088283298,
+            "exact_objective": -1.5030226308734913,
+            "objective_gap": 0.07191942204516155,
+            "sa_train_return": 1.484138088421616,
+            "exact_train_return": 1.5625505996255544,
+            "sa_train_volatility": 0.32568352612094525,
+            "exact_train_volatility": 0.345044834049325,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.517147300000943,
+            "exact_runtime": 0.2399108999998134,
+            "feasible_portfolios": 4348,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 13,
+            "test_start": "2026-03-30",
+            "test_end": "2026-04-27",
+            "sa_assets": [
+                "GOOGL",
+                "GOOG",
+                "MU",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "GOOG",
+                "MU",
+                "AMAT"
+            ],
+            "sa_objective": -0.6929229427242164,
+            "exact_objective": -0.6929229427242164,
+            "objective_gap": 0.0,
+            "sa_train_return": 0.7512547758526427,
+            "exact_train_return": 0.7512547758526427,
+            "sa_train_volatility": 0.3415606333535123,
+            "exact_train_volatility": 0.3415606333535123,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.25,
+            "sa_runtime": 4.493845000000874,
+            "exact_runtime": 0.21526969999831636,
+            "feasible_portfolios": 3988,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 14,
+            "test_start": "2026-04-28",
+            "test_end": "2026-05-26",
+            "sa_assets": [
+                "GOOGL",
+                "AAPL",
+                "INTC",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "GOOG",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -0.8233712657365986,
+            "exact_objective": -0.92808502777538,
+            "objective_gap": 0.10471376203878147,
+            "sa_train_return": 0.8743827682085352,
+            "exact_train_return": 0.9889651446630165,
+            "sa_train_volatility": 0.31941040205959687,
+            "exact_train_volatility": 0.3489415907788481,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.25,
+            "sa_runtime": 4.506013599999278,
+            "exact_runtime": 0.22033949999968172,
+            "feasible_portfolios": 4996,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 15,
+            "test_start": "2026-05-27",
+            "test_end": "2026-06-24",
+            "sa_assets": [
+                "NVDA",
+                "GOOGL",
+                "TSM",
+                "MU"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "AAPL",
+                "MU",
+                "AMAT"
+            ],
+            "sa_objective": -1.0935305824047363,
+            "exact_objective": -1.162909409212685,
+            "objective_gap": 0.06937882680794871,
+            "sa_train_return": 1.1529788978762783,
+            "exact_train_return": 1.219834052561874,
+            "sa_train_volatility": 0.34481390769962295,
+            "exact_train_volatility": 0.3374155993702395,
+            "sa_turnover": 0.75,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.497758099998464,
+            "exact_runtime": 0.22770040000250447,
+            "feasible_portfolios": 5479,
+            "best_parameters": {
+                "reads": 1500,
+                "sweeps": 3000,
+                "seed": 777
+            }
+        },
+        {
+            "window": 16,
+            "test_start": "2026-06-25",
+            "test_end": "2026-07-23",
+            "sa_assets": [
+                "GOOGL",
+                "AMD",
+                "AAPL",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "MSFT",
+                "AAPL",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.0028771247037125,
+            "exact_objective": -1.0325993426852011,
+            "objective_gap": 0.029722217981488663,
+            "sa_train_return": 1.0603729725681097,
+            "exact_train_return": 1.090220684362694,
+            "sa_train_volatility": 0.3391042549553075,
+            "exact_train_volatility": 0.3394741276665804,
+            "sa_turnover": 0.75,
+            "exact_turnover": 0.5,
+            "sa_runtime": 4.466655599997466,
+            "exact_runtime": 0.22015729999839095,
+            "feasible_portfolios": 4082,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 17,
+            "test_start": "2026-07-24",
+            "test_end": "2026-08-21",
+            "sa_assets": [
+                "MSFT",
+                "AMD",
+                "AAPL",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "MSFT",
+                "AMD",
+                "AAPL",
+                "AMAT"
+            ],
+            "sa_objective": -0.7284622220345337,
+            "exact_objective": -0.7284622220345337,
+            "objective_gap": 0.0,
+            "sa_train_return": 0.785973579651837,
+            "exact_train_return": 0.785973579651837,
+            "sa_train_volatility": 0.33914998928881973,
+            "exact_train_volatility": 0.33914998928881973,
+            "sa_turnover": 0.25,
+            "exact_turnover": 0.25,
+            "sa_runtime": 4.47477130000334,
+            "exact_runtime": 0.20989340000232914,
+            "feasible_portfolios": 3760,
+            "best_parameters": {
+                "reads": 1000,
+                "sweeps": 2000,
+                "seed": 123
+            }
+        },
+        {
+            "window": 18,
+            "test_start": "2026-08-24",
+            "test_end": "2026-09-21",
+            "sa_assets": [
+                "LINK-USD",
+                "MSFT",
+                "AAPL",
+                "MU"
+            ],
+            "exact_assets": [
+                "AMZN",
+                "PLTR",
+                "AAPL",
+                "MU"
+            ],
+            "sa_objective": -0.8337034723901195,
+            "exact_objective": -0.8711836807049141,
+            "objective_gap": 0.037480208314794594,
+            "sa_train_return": 0.8897635889782163,
+            "exact_train_return": 0.926323488301541,
+            "sa_train_volatility": 0.33484359509507344,
+            "exact_train_volatility": 0.3320837472585095,
+            "sa_turnover": 0.5,
+            "exact_turnover": 0.75,
+            "sa_runtime": 4.5134694000007585,
+            "exact_runtime": 0.21367730000201846,
+            "feasible_portfolios": 4205,
+            "best_parameters": {
+                "reads": 500,
+                "sweeps": 1000,
+                "seed": 42
+            }
+        }
+    ],
+    "sa_metrics": {
+        "annual_return": 0.8524079148449293,
+        "annual_volatility": 0.3554306038331244,
+        "sharpe": 1.9128031377891506,
+        "sortino": 3.0818938580742232,
+        "max_drawdown": -0.17634185828502869,
+        "final_equity": 2.521186319737333
+    },
+    "exact_metrics": {
+        "annual_return": 0.705026175353257,
+        "annual_volatility": 0.3552000104763017,
+        "sharpe": 1.6801202795757537,
+        "sortino": 2.6360685615892,
+        "max_drawdown": -0.21845179819759497,
+        "final_equity": 2.226366076305391
+    },
+    "completed_windows": 18,
+    "test_observations": 378
+}

@@ -1,0 +1,649 @@
+{
+    "project": "D-Wave Portfolio Optimizer V6",
+    "solver": "Local Simulated Annealing",
+    "assets": [
+        "BTC-USD",
+        "ETH-USD",
+        "SOL-USD",
+        "ADA-USD",
+        "SUI20947-USD",
+        "AVAX-USD",
+        "LINK-USD",
+        "XRP-USD",
+        "DOGE-USD",
+        "LTC-USD",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "AMD",
+        "TSLA",
+        "PLTR",
+        "IONQ",
+        "QBTS",
+        "RGTI",
+        "QUBT",
+        "IBM",
+        "GOOG",
+        "AAPL",
+        "AVGO",
+        "TSM",
+        "MU",
+        "INTC",
+        "AMAT"
+    ],
+    "failed_downloads": [],
+    "historical_observations": 523,
+    "windows": [
+        {
+            "sa_indices": [
+                7,
+                18,
+                20,
+                21
+            ],
+            "exact_indices": [
+                7,
+                19,
+                20,
+                21
+            ],
+            "sa_assets": [
+                "XRP-USD",
+                "IONQ",
+                "RGTI",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "XRP-USD",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "sa_objective": -4.4386763125998066,
+            "exact_objective": -4.927429578874204,
+            "objective_gap": 0.4887532662743972,
+            "sa_runtime": 1.6248811000004935,
+            "exact_runtime": 0.37572999999974854,
+            "test_start": "2025-04-10",
+            "test_end": "2025-05-08"
+        },
+        {
+            "sa_indices": [
+                7,
+                17,
+                20,
+                21
+            ],
+            "exact_indices": [
+                7,
+                19,
+                20,
+                21
+            ],
+            "sa_assets": [
+                "XRP-USD",
+                "PLTR",
+                "RGTI",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "XRP-USD",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "sa_objective": -3.3279059685269137,
+            "exact_objective": -3.7849307404148296,
+            "objective_gap": 0.4570247718879159,
+            "sa_runtime": 1.6410353000028408,
+            "exact_runtime": 0.35033000000112224,
+            "test_start": "2025-05-09",
+            "test_end": "2025-06-06"
+        },
+        {
+            "sa_indices": [
+                17,
+                18,
+                19,
+                21
+            ],
+            "exact_indices": [
+                17,
+                19,
+                20,
+                21
+            ],
+            "sa_assets": [
+                "PLTR",
+                "IONQ",
+                "QBTS",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "PLTR",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "sa_objective": -2.0675449946468074,
+            "exact_objective": -2.2884758906905582,
+            "objective_gap": 0.22093089604375082,
+            "sa_runtime": 1.5858874000005017,
+            "exact_runtime": 0.31785210000089137,
+            "test_start": "2025-06-09",
+            "test_end": "2025-07-07"
+        },
+        {
+            "sa_indices": [
+                17,
+                19,
+                21,
+                26
+            ],
+            "exact_indices": [
+                17,
+                19,
+                20,
+                21
+            ],
+            "sa_assets": [
+                "PLTR",
+                "QBTS",
+                "QUBT",
+                "TSM"
+            ],
+            "exact_assets": [
+                "PLTR",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "sa_objective": -1.6444567843802984,
+            "exact_objective": -1.7919225495087785,
+            "objective_gap": 0.1474657651284801,
+            "sa_runtime": 1.7545565000000352,
+            "exact_runtime": 0.4392655999981798,
+            "test_start": "2025-07-08",
+            "test_end": "2025-08-05"
+        },
+        {
+            "sa_indices": [
+                4,
+                15,
+                19,
+                21
+            ],
+            "exact_indices": [
+                15,
+                17,
+                19,
+                21
+            ],
+            "sa_assets": [
+                "SUI20947-USD",
+                "AMD",
+                "QBTS",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "AMD",
+                "PLTR",
+                "QBTS",
+                "QUBT"
+            ],
+            "sa_objective": -1.425470981013284,
+            "exact_objective": -1.5527132238170065,
+            "objective_gap": 0.12724224280372254,
+            "sa_runtime": 1.6746877999976277,
+            "exact_runtime": 0.3273979000005056,
+            "test_start": "2025-08-06",
+            "test_end": "2025-09-03"
+        },
+        {
+            "sa_indices": [
+                15,
+                18,
+                19,
+                21
+            ],
+            "exact_indices": [
+                1,
+                18,
+                19,
+                21
+            ],
+            "sa_assets": [
+                "AMD",
+                "IONQ",
+                "QBTS",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "ETH-USD",
+                "IONQ",
+                "QBTS",
+                "QUBT"
+            ],
+            "sa_objective": -1.929732087093601,
+            "exact_objective": -2.101999194207569,
+            "objective_gap": 0.17226710711396787,
+            "sa_runtime": 1.6480885000019043,
+            "exact_runtime": 0.31775460000062594,
+            "test_start": "2025-09-04",
+            "test_end": "2025-10-02"
+        },
+        {
+            "sa_indices": [
+                8,
+                19,
+                20,
+                21
+            ],
+            "exact_indices": [
+                1,
+                19,
+                20,
+                21
+            ],
+            "sa_assets": [
+                "DOGE-USD",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "exact_assets": [
+                "ETH-USD",
+                "QBTS",
+                "RGTI",
+                "QUBT"
+            ],
+            "sa_objective": -2.360965705435578,
+            "exact_objective": -2.5874919026831,
+            "objective_gap": 0.22652619724752165,
+            "sa_runtime": 1.639088100000663,
+            "exact_runtime": 0.38173969999843393,
+            "test_start": "2025-10-03",
+            "test_end": "2025-10-31"
+        },
+        {
+            "sa_indices": [
+                15,
+                20,
+                21,
+                27
+            ],
+            "exact_indices": [
+                15,
+                19,
+                20,
+                27
+            ],
+            "sa_assets": [
+                "AMD",
+                "RGTI",
+                "QUBT",
+                "MU"
+            ],
+            "exact_assets": [
+                "AMD",
+                "QBTS",
+                "RGTI",
+                "MU"
+            ],
+            "sa_objective": -2.243476654812931,
+            "exact_objective": -2.506451164636143,
+            "objective_gap": 0.26297450982321235,
+            "sa_runtime": 1.6094858000033128,
+            "exact_runtime": 0.295567299999675,
+            "test_start": "2025-11-03",
+            "test_end": "2025-12-01"
+        },
+        {
+            "sa_indices": [
+                15,
+                20,
+                25,
+                27
+            ],
+            "exact_indices": [
+                15,
+                20,
+                27,
+                28
+            ],
+            "sa_assets": [
+                "AMD",
+                "RGTI",
+                "AVGO",
+                "MU"
+            ],
+            "exact_assets": [
+                "AMD",
+                "RGTI",
+                "MU",
+                "INTC"
+            ],
+            "sa_objective": -1.4514953813383331,
+            "exact_objective": -1.5902820700361466,
+            "objective_gap": 0.13878668869781352,
+            "sa_runtime": 1.6552148000009765,
+            "exact_runtime": 0.3519317999998748,
+            "test_start": "2025-12-02",
+            "test_end": "2025-12-30"
+        },
+        {
+            "sa_indices": [
+                12,
+                16,
+                27,
+                28
+            ],
+            "exact_indices": [
+                12,
+                20,
+                23,
+                27
+            ],
+            "sa_assets": [
+                "GOOGL",
+                "TSLA",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "RGTI",
+                "GOOG",
+                "MU"
+            ],
+            "sa_objective": -1.2821006688552397,
+            "exact_objective": -1.399633823430158,
+            "objective_gap": 0.11753315457491831,
+            "sa_runtime": 1.6587513999984367,
+            "exact_runtime": 0.3583619999990333,
+            "test_start": "2025-12-31",
+            "test_end": "2026-01-28"
+        },
+        {
+            "sa_indices": [
+                19,
+                23,
+                27,
+                28
+            ],
+            "exact_indices": [
+                12,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "QBTS",
+                "GOOG",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "GOOGL",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.7178620641966795,
+            "exact_objective": -1.8022835599572748,
+            "objective_gap": 0.08442149576059532,
+            "sa_runtime": 1.7237824999974691,
+            "exact_runtime": 0.3599348999996437,
+            "test_start": "2026-01-29",
+            "test_end": "2026-02-26"
+        },
+        {
+            "sa_indices": [
+                10,
+                27,
+                28,
+                29
+            ],
+            "exact_indices": [
+                26,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "NVDA",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "TSM",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.4989311260562856,
+            "exact_objective": -1.701839233711062,
+            "objective_gap": 0.2029081076547763,
+            "sa_runtime": 1.6575404000031995,
+            "exact_runtime": 0.34127929999885964,
+            "test_start": "2026-02-27",
+            "test_end": "2026-03-27"
+        },
+        {
+            "sa_indices": [
+                12,
+                27,
+                28,
+                29
+            ],
+            "exact_indices": [
+                15,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "GOOGL",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -0.7313875873247446,
+            "exact_objective": -0.7760056910911252,
+            "objective_gap": 0.044618103766380535,
+            "sa_runtime": 1.5854918000004545,
+            "exact_runtime": 0.3725687000005564,
+            "test_start": "2026-03-30",
+            "test_end": "2026-04-27"
+        },
+        {
+            "sa_indices": [
+                15,
+                23,
+                27,
+                28
+            ],
+            "exact_indices": [
+                26,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "AMD",
+                "GOOG",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "TSM",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.1272816131420051,
+            "exact_objective": -1.3015817127754123,
+            "objective_gap": 0.1743000996334072,
+            "sa_runtime": 1.5952127999989898,
+            "exact_runtime": 0.3628692999991472,
+            "test_start": "2026-04-28",
+            "test_end": "2026-05-26"
+        },
+        {
+            "sa_indices": [
+                10,
+                27,
+                28,
+                29
+            ],
+            "exact_indices": [
+                15,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "NVDA",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "exact_assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.6897697041455502,
+            "exact_objective": -2.0169773204480186,
+            "objective_gap": 0.3272076163024684,
+            "sa_runtime": 1.463941199999681,
+            "exact_runtime": 0.2525196999995387,
+            "test_start": "2026-05-27",
+            "test_end": "2026-06-24"
+        },
+        {
+            "sa_indices": [
+                10,
+                15,
+                27,
+                28
+            ],
+            "exact_indices": [
+                15,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "NVDA",
+                "AMD",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.8455753970904254,
+            "exact_objective": -2.21505346038913,
+            "objective_gap": 0.3694780632987047,
+            "sa_runtime": 1.3424630999979854,
+            "exact_runtime": 0.24855350000143517,
+            "test_start": "2026-06-25",
+            "test_end": "2026-07-23"
+        },
+        {
+            "sa_indices": [
+                13,
+                15,
+                27,
+                28
+            ],
+            "exact_indices": [
+                15,
+                27,
+                28,
+                29
+            ],
+            "sa_assets": [
+                "AMZN",
+                "AMD",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "sa_objective": -1.2363409279418192,
+            "exact_objective": -1.4876609711712727,
+            "objective_gap": 0.25132004322945356,
+            "sa_runtime": 1.2972063000015623,
+            "exact_runtime": 0.25113100000089617,
+            "test_start": "2026-07-24",
+            "test_end": "2026-08-21"
+        },
+        {
+            "sa_indices": [
+                6,
+                15,
+                27,
+                28
+            ],
+            "exact_indices": [
+                15,
+                17,
+                27,
+                28
+            ],
+            "sa_assets": [
+                "LINK-USD",
+                "AMD",
+                "MU",
+                "INTC"
+            ],
+            "exact_assets": [
+                "AMD",
+                "PLTR",
+                "MU",
+                "INTC"
+            ],
+            "sa_objective": -1.4357456064972658,
+            "exact_objective": -1.4682468211344601,
+            "objective_gap": 0.03250121463719435,
+            "sa_runtime": 1.285153500000888,
+            "exact_runtime": 0.2496915000010631,
+            "test_start": "2026-08-24",
+            "test_end": "2026-09-21"
+        }
+    ],
+    "sa_metrics": {
+        "annual_return": 1.7844507980170605,
+        "annual_volatility": 0.6322230077176113,
+        "sharpe_ratio": 2.8225021491373865,
+        "sortino_ratio": 4.715113248109075,
+        "max_drawdown": -0.41483072178451585
+    },
+    "exact_metrics": {
+        "annual_return": 2.0245617960285878,
+        "annual_volatility": 0.6977068972262105,
+        "sharpe_ratio": 2.901736823983531,
+        "sortino_ratio": 5.013845888691199,
+        "max_drawdown": -0.4261836456354834
+    },
+    "test_observations": 378
+}

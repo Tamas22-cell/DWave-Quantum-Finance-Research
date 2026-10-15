@@ -1,0 +1,408 @@
+{
+    "project": "D-Wave Portfolio Optimizer V5",
+    "hardware": "Local CPU",
+    "assets_available": 17,
+    "exact_assets": [
+        "AAPL",
+        "AMAT",
+        "MU",
+        "TSM"
+    ],
+    "exact_objective": -0.7724555414586172,
+    "exact_runtime": 0.026125099997443613,
+    "best_auto_tuning": {
+        "reads": 500,
+        "sweeps": 500,
+        "seed": 777,
+        "assets": [
+            "AAPL",
+            "AMAT",
+            "MU",
+            "TSM"
+        ],
+        "objective": -0.7724555414586121,
+        "gap": 5.10702591327572e-15,
+        "runtime": 0.0903757999985828
+    },
+    "experiments": [
+        {
+            "reads": 100,
+            "sweeps": 500,
+            "seed": 42,
+            "assets": [
+                "AMAT",
+                "META",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7069493515963359,
+            "gap": 0.0655061898622813,
+            "runtime": 0.022790800001530442
+        },
+        {
+            "reads": 100,
+            "sweeps": 500,
+            "seed": 123,
+            "assets": [
+                "ADA-USD",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.4517217237360569,
+            "gap": 0.32073381772256027,
+            "runtime": 0.022412899998016655
+        },
+        {
+            "reads": 100,
+            "sweeps": 500,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "NVDA"
+            ],
+            "objective": -0.7440992923051795,
+            "gap": 0.028356249153437707,
+            "runtime": 0.018957399999635527
+        },
+        {
+            "reads": 100,
+            "sweeps": 2000,
+            "seed": 42,
+            "assets": [
+                "AMAT",
+                "IBM",
+                "META",
+                "MU"
+            ],
+            "objective": -0.6106290505894663,
+            "gap": 0.1618264908691509,
+            "runtime": 0.07349500000054832
+        },
+        {
+            "reads": 100,
+            "sweeps": 2000,
+            "seed": 123,
+            "assets": [
+                "AMAT",
+                "AMZN",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7312777157162031,
+            "gap": 0.04117782574241402,
+            "runtime": 0.07961780000186991
+        },
+        {
+            "reads": 100,
+            "sweeps": 2000,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "META",
+                "MU"
+            ],
+            "objective": -0.7150080107002736,
+            "gap": 0.057447530758343524,
+            "runtime": 0.07546929999807617
+        },
+        {
+            "reads": 100,
+            "sweeps": 5000,
+            "seed": 42,
+            "assets": [
+                "AMAT",
+                "AMZN",
+                "IBM",
+                "MU"
+            ],
+            "objective": -0.6358497616567433,
+            "gap": 0.13660577980187383,
+            "runtime": 0.17791099999885773
+        },
+        {
+            "reads": 100,
+            "sweeps": 5000,
+            "seed": 123,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSLA"
+            ],
+            "objective": -0.6583262023556813,
+            "gap": 0.11412933910293588,
+            "runtime": 0.20902049999858718
+        },
+        {
+            "reads": 100,
+            "sweeps": 5000,
+            "seed": 777,
+            "assets": [
+                "AMAT",
+                "META",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7069493515963359,
+            "gap": 0.0655061898622813,
+            "runtime": 0.18402980000246316
+        },
+        {
+            "reads": 500,
+            "sweeps": 500,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "NVDA"
+            ],
+            "objective": -0.7440992923051795,
+            "gap": 0.028356249153437707,
+            "runtime": 0.09666819999984
+        },
+        {
+            "reads": 500,
+            "sweeps": 500,
+            "seed": 123,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "IBM",
+                "MU"
+            ],
+            "objective": -0.6752102122287056,
+            "gap": 0.09724532922991158,
+            "runtime": 0.08994150000216905
+        },
+        {
+            "reads": 500,
+            "sweeps": 500,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.0903757999985828
+        },
+        {
+            "reads": 500,
+            "sweeps": 2000,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.39292980000027455
+        },
+        {
+            "reads": 500,
+            "sweeps": 2000,
+            "seed": 123,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "NVDA"
+            ],
+            "objective": -0.7440992923051795,
+            "gap": 0.028356249153437707,
+            "runtime": 0.3915627999995195
+        },
+        {
+            "reads": 500,
+            "sweeps": 2000,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "AMZN",
+                "MU"
+            ],
+            "objective": -0.7401012906868232,
+            "gap": 0.03235425077179399,
+            "runtime": 0.40314849999776925
+        },
+        {
+            "reads": 500,
+            "sweeps": 5000,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "NVDA"
+            ],
+            "objective": -0.7440992923051795,
+            "gap": 0.028356249153437707,
+            "runtime": 0.9996084999984305
+        },
+        {
+            "reads": 500,
+            "sweeps": 5000,
+            "seed": 123,
+            "assets": [
+                "AMAT",
+                "MU",
+                "NVDA",
+                "TSM"
+            ],
+            "objective": -0.7319077668461205,
+            "gap": 0.0405477746124967,
+            "runtime": 0.9434567999996943
+        },
+        {
+            "reads": 500,
+            "sweeps": 5000,
+            "seed": 777,
+            "assets": [
+                "AMAT",
+                "META",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7069493515963359,
+            "gap": 0.0655061898622813,
+            "runtime": 0.9849628999982087
+        },
+        {
+            "reads": 1000,
+            "sweeps": 500,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.1985891999975138
+        },
+        {
+            "reads": 1000,
+            "sweeps": 500,
+            "seed": 123,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.1952805000000808
+        },
+        {
+            "reads": 1000,
+            "sweeps": 500,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.18390690000160248
+        },
+        {
+            "reads": 1000,
+            "sweeps": 2000,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.7906674999976531
+        },
+        {
+            "reads": 1000,
+            "sweeps": 2000,
+            "seed": 123,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 0.7726142999999865
+        },
+        {
+            "reads": 1000,
+            "sweeps": 2000,
+            "seed": 777,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "AMZN",
+                "MU"
+            ],
+            "objective": -0.7401012906868232,
+            "gap": 0.03235425077179399,
+            "runtime": 0.8093547999997099
+        },
+        {
+            "reads": 1000,
+            "sweeps": 5000,
+            "seed": 42,
+            "assets": [
+                "AAPL",
+                "AMAT",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7724555414586121,
+            "gap": 5.10702591327572e-15,
+            "runtime": 1.857998100000259
+        },
+        {
+            "reads": 1000,
+            "sweeps": 5000,
+            "seed": 123,
+            "assets": [
+                "AMAT",
+                "MU",
+                "NVDA",
+                "TSM"
+            ],
+            "objective": -0.7319077668461205,
+            "gap": 0.0405477746124967,
+            "runtime": 1.9143481999999494
+        },
+        {
+            "reads": 1000,
+            "sweeps": 5000,
+            "seed": 777,
+            "assets": [
+                "AMAT",
+                "META",
+                "MU",
+                "TSM"
+            ],
+            "objective": -0.7069493515963359,
+            "gap": 0.0655061898622813,
+            "runtime": 1.9020281999983126
+        }
+    ],
+    "status": "GLOBAL OPTIMUM FOUND"
+}

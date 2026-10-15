@@ -1,0 +1,31 @@
+{
+    "project": "D-Wave Quantum Portfolio Optimizer V3",
+    "timestamp_utc": "2026-10-15T12:28:24.631965+00:00",
+    "solver": "D-Wave Simulated Annealing",
+    "hardware": "Local CPU",
+    "market_data": "Yahoo Finance historical prices",
+    "assets_available": 24,
+    "observations": 262,
+    "selected_assets": [
+        "AAPL",
+        "AMAT",
+        "AMD",
+        "INTC"
+    ],
+    "exact_selected_assets": [
+        "AAPL",
+        "AMAT",
+        "AMD",
+        "INTC"
+    ],
+    "target_assets": 4,
+    "annual_return": 0.8616512417407131,
+    "annual_volatility": 0.4389429757963896,
+    "sharpe_ratio": 1.963014079852603,
+    "sa_objective": -0.7653157737420315,
+    "exact_objective": -0.7653157737402181,
+    "objective_gap": -1.8134382884227307e-12,
+    "sa_runtime_seconds": 0.4873946000006981,
+    "exact_runtime_seconds": 0.09923150000031455,
+    "status": "GLOBAL OPTIMUM FOUND"
+}

@@ -1,0 +1,54 @@
+{
+    "project": "D-Wave Portfolio Optimizer V4",
+    "timestamp_utc": "2026-10-15T12:33:08.101818+00:00",
+    "hardware": "Local CPU",
+    "data_source": "Yahoo Finance",
+    "available_assets": 30,
+    "failed_assets": [],
+    "observations": 262,
+    "selected_assets": [
+        "GOOGL",
+        "AMD",
+        "MU",
+        "AMAT"
+    ],
+    "portfolio_metrics": {
+        "annual_return": 1.018431679327674,
+        "annual_volatility": 0.47054927977455996,
+        "sharpe_ratio": 2.1643464842101223
+    },
+    "solvers": {
+        "simulated_annealing": {
+            "assets": [
+                "GOOGL",
+                "AMD",
+                "MU",
+                "AMAT"
+            ],
+            "objective": -0.9077233669784164,
+            "runtime": 0.6403279000005568
+        },
+        "greedy": {
+            "assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "objective": -1.0543373114609011,
+            "runtime": 0.00011929999891435727
+        },
+        "exact": {
+            "assets": [
+                "AMD",
+                "MU",
+                "INTC",
+                "AMAT"
+            ],
+            "objective": -1.0543373114609011,
+            "runtime": 0.24980219999997644
+        }
+    },
+    "objective_gap": 0.14661394448248477,
+    "status": "SUBOPTIMAL SOLUTION"
+}
