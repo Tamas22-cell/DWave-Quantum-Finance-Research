@@ -2,6 +2,11 @@
 
 # D-Wave Quantum Finance Research Engine
 
+![D-Wave Quantum Finance Research Engine — project overview](./9bf013fc-9ad2-474d-878b-f9a9f873992a.png)
+
+> **Research visualization:** This image is illustrative and may include metrics or charts not independently validated against the repository's result files. Verified numerical results are available in `results_v7.json` and `equity_curve_v7.csv`.
+
+
 ## Quantum-Inspired Portfolio Optimization & Multi-Agent Research
 
 A Python-based research platform combining quantum-inspired
